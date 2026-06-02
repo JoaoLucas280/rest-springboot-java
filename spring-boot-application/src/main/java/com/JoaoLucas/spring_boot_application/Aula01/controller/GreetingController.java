@@ -1,6 +1,6 @@
-package com.JoaoLucas.spring_boot_application.controller;
+package com.JoaoLucas.spring_boot_application.Aula01.controller;
 
-import com.JoaoLucas.spring_boot_application.model.Greeting;
+import com.JoaoLucas.spring_boot_application.Aula01.model.Greeting;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
