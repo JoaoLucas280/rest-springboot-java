@@ -1,1 +1,15 @@
-spring.application.name=spring-boot-application
+spring:
+  application:
+    name: spring-boot-application
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_boot_application_JoaoLucas?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: Abacaxisupremo-1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: false

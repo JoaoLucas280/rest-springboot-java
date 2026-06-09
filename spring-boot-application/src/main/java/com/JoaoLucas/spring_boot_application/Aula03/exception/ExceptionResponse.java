@@ -1,4 +1,4 @@
-package com.JoaoLucas.spring_boot_application.Aula02.exception;
+package com.JoaoLucas.spring_boot_application.Aula03.exception;
 
 import java.util.Date;
 
